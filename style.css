@@ -1,0 +1,152 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header section */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Section styling */
+section {
+    margin: 40px 20px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section li {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section li img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+section li h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+section li p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Personal Info Section */
+#personal-info {
+    background-color: #eef;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#personal-info h2 {
+    font-size: 26px;
+    color: #222;
+}
+
+#personal-info p {
+    font-size: 18px;
+    color: #444;
+}
+
+/* Footer section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #FFD700;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    section {
+        margin: 40px auto;
+        max-width: 800px;
+    }
+
+    section li {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    section li img {
+        max-width: 45%;
+        margin-right: 20px;
+    }
+
+    section li h3 {
+        font-size: 24px;
+    }
+
+    section li p {
+        font-size: 16px;
+    }
+}
